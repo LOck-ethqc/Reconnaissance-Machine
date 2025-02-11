@@ -36,6 +36,12 @@ Come on, man! It's way too easy.
 2) [Download Kali Linux Image for VB](https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-virtualbox-amd64.7z)
 3) Decompress Kali Linux Image & double-click on the orange box to install the image on VB.
 
+### Switching to Bridged
+In Virtual Box, click on your Kali Linux image and navigate to Settings -> Network
+<br> then change from NAT to Bridged Adapter. <br>
+![1](https://github.com/user-attachments/assets/5be03ecb-23a7-4d3d-9aca-cea02f12984a)
+<br> This will make the Kali Linux image reachable to devices in the home network.
+
 ### Enabling Auto-Login
 LightDM allows users to bypass the login screen, automatically logging into a predefined user account without requiring them to enter a password.
 <br>
